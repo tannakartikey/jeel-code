@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width:992px) {
+.socialWrap > li:first-child {
+    display: block;
+    text-align: left;
+}
+
+}
+@media only screen and (max-width:767px) {
+	
+a.dropdown-toggle:after {
+	 display: block; content: " "; float: right;  width: 0; height: 0; border-color: transparent;  border-style: solid; border-left: 10px solid transparent;
+	border-right: 10px solid transparent;	border-top: 10px solid #3aaf06; margin-top: 3px; margin-right: -10px;}	
+	.dropdown-menu {padding-left:15px;}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover { background:none; color:959595;}
+	.dropdown-menu a { border-bottom: medium none; color: #959595!important; font-size: 18px; font-weight: 400!important; padding: 6px 20px !important;}
+	.dropdown-submenu  a.dropdown-toggle:after { margin-top:-13px;}
+	.dropdown-submenu:hover > a::after { border-left-color:transparent;}
+	  .dropdown-submenu  .dropdown-menu {padding-left:20px;}
+	  .dropdown-submenu .dropdown-menu a { border-bottom:none;}
+	  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border-color:#3aaf06;}
+	  .nav.navbar-nav.navbar-right {margin:0 -15px 7.5px;}
+	 .nav.navbar-nav{margin: 7.5px -15px 0 }
+	 
+.banDetailWrap h3 {font-size:18.8px;}	 
+.banDetailWrap h2 { font-size:27px;}
+.socialWrap {   text-align: center;}
+.socialWrap > li:first-child { text-align:center;}
+.copytext { text-align:center;}
+.socialWrap {  margin-bottom: 14px;}
+}
+
+@media only screen and (max-width:640px) { 
+
+.banDetailWrap {
+    margin: 0 auto;
+    width: 100%;
+}
+.banDetailWrap h3 ,.banDetailWrap h2 { text-align:center;} 
+.cdtlWrap {margin:0 auto;}
+.srcndselWrap { margin: 0 auto 7px;  width: 460px;}
+
+ }
+ 
+ @media only screen and (max-width:480px) { 
+ 
+ .banDetailWrap h3 {font-size:14.8px;}	 
+.banDetailWrap h2 { font-size:18px;}
+ .srcndselWrap { width:90%;}
+ .searchform {width:68%;}
+ .searchtxt { width:86%; font-size:16px; padding:8px}
+ .selWrap { width:41%}
+ .cdtlWrap { width:90%;}
+ select.selopt { font-size:16px; padding:10px;}
+ .jumpto { width:16%;}
+ .courses { width:82%; margin-left:2%;}
+ }
+ 
+ @media only screen and (max-width:420px) { 
+ 
+ .searchbtn {background-size:48% 48%; height:40px; width:40px; right:11px;}
+ .selWrap { margin-left:-28px}
+ .selWrap .selopt { text-align:left; padding-left:20px;}
+ #trainings h2 { font-size:20px;}
+ 
+  }

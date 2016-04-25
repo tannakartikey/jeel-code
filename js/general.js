@@ -1,0 +1,21 @@
+// JavaScript Document
+$('.carouselBlock').owlCarousel({
+			loop:true,
+			autoplay:true,
+			autoplayTimeout:3000,
+			smartSpeed:1200,
+			margin:10,
+			nav:true,
+			dots:false,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:3
+				},
+				1000:{
+					items:4
+				}
+			}
+		});
